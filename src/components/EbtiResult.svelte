@@ -94,7 +94,7 @@
   .position-wrapper {
     display: flex;
     width: 100%;
-    min-width: 20rem; /* 320px */
+    min-width: 15rem; /* 240px */
     height: 100%;
     flex-direction: column;
     margin: 0 auto;

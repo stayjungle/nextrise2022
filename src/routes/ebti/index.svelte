@@ -34,7 +34,7 @@
   .position-wrapper {
     display: flex;
     width: 100%;
-    min-width: 20rem; /* 320px */
+    min-width: 15rem; /* 240px */
     max-width: 40rem; /* 640px */
     height: 100%;
     flex-direction: column;

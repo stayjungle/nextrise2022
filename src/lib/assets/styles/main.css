@@ -32,6 +32,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: var(--bg-light-gray);
+  text-align: center;
 }
 
 .button.start {

@@ -168,14 +168,14 @@
 
   .food-info-container {
     display: flex;
-    height: 14.375rem;
     flex-direction: column;
+    margin-bottom: 3.5rem;
     color: var(--text-color-em);
     font-weight: 700;
     gap: 1.25rem;
 
     .serving-size {
-      margin-top: 4.1875rem;
+      margin-top: 3.5rem;
     }
 
     .food-info {
@@ -187,6 +187,7 @@
         font-family: questa-grande, serif;
         font-size: 1.25rem;
         font-style: italic;
+        white-space: nowrap;
       }
 
       .info-data {
@@ -198,8 +199,9 @@
   .food-image-wrapper {
     overflow: hidden;
     width: 60vw;
+    margin: 1rem 0 1rem 1rem;
     float: right;
-    shape-outside: circle(48%);
+    shape-outside: circle(50%);
 
     img {
       width: 100%;

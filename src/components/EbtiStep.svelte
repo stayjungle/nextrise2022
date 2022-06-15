@@ -70,19 +70,19 @@
 
   .inner-container {
     padding-right: 3.125rem;
-    padding-bottom: 3.125rem;
+    padding-bottom: 1.5rem;
     padding-left: 3.125rem;
   }
 
   .main-img {
     width: 100%;
-    max-width: 23.4375rem;
+    max-width: 16rem;
     margin: 0 auto;
   }
 
   .qna-container {
     display: flex;
-    min-height: 22rem;
+    min-height: 18rem;
     flex-direction: column;
     justify-content: space-between;
   }

@@ -18,6 +18,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   line-height: 1;
   text-rendering: optimizeLegibility;
+  word-break: keep-all;
 }
 
 .base-text {
@@ -47,12 +48,11 @@ body {
 }
 
 .button.answer {
-  padding: 0.813rem 1.875rem;
+  padding: 0.7rem 1.875rem;
   border-radius: 1.5625rem;
   white-space: pre-line;
 }
 
-.button:hover,
 .button:active {
   background-color: var(--bg-dark-gray);
   color: #fff;

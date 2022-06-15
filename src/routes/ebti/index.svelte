@@ -52,20 +52,20 @@
 
   .inner-container {
     padding-right: 3.125rem;
-    padding-bottom: 3.125rem;
+    padding-bottom: 2rem;
     padding-left: 2.8125rem;
   }
 
   .logo-img-container {
     display: flex;
     justify-content: center;
-    margin-top: 4.6875rem;
+    margin-top: 2rem;
     margin-bottom: 1.1875rem;
   }
 
   .main-img {
     width: 100%;
-    max-width: 23.4375rem;
+    max-width: 18rem;
     margin: 0 auto;
   }
 
@@ -83,7 +83,7 @@
     }
 
     .logo-desc {
-      font-size: calc(var(--fs) * 24);
+      font-size: calc(var(--fs) * 18);
       letter-spacing: 0.02em;
     }
   }

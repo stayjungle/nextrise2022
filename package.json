@@ -2,7 +2,7 @@
   "name": "nextrise2022",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev",
+    "dev": "svelte-kit dev --host 0.0.0.0",
     "build": "bins/fetch.sh && svelte-kit build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",

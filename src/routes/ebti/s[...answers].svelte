@@ -1,8 +1,5 @@
-<script context="module">
-  export const router = false
-</script>
-
 <script lang="ts">
+  // import { afterNavigate } from '$app/navigation'
   import { page } from '$app/stores'
   import EbtiResult from '$comp/EbtiResult.svelte'
   import EbtiStep from '$comp/EbtiStep.svelte'

@@ -18,6 +18,7 @@
   .answers {
     display: flex;
     flex-direction: column;
-    gap: 1.25rem;
+    margin-top: 0.5rem;
+    gap: 0.8rem;
   }
 </style>

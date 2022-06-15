@@ -1,0 +1,59 @@
+@import 'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap';
+@import '_reset.css';
+
+:root {
+  --fs: 0.0625rem;
+  --max-height: 50.75rem;
+  --bg-light-gray: #eee;
+  --bg-gray: #9c9c9c;
+  --bg-dark-gray: #494949;
+  --text-color: #4e4e4e;
+  --text-color-em: #222;
+}
+
+body {
+  color: var(--text-color);
+  font-family: 'Noto Sans KR', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1;
+  text-rendering: optimizeLegibility;
+}
+
+.base-text {
+  font-size: calc(var(--fs) * 15);
+  font-weight: 500;
+  line-height: 1.7333;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-light-gray);
+}
+
+.button.start {
+  --height: 4.375rem;
+
+  height: var(--height);
+  border-radius: calc(var(--height) / 2);
+  color: var(--text-color-em);
+  font-family: questa-grande, serif;
+  font-size: 1.875rem;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.button.answer {
+  padding: 0.813rem 1.875rem;
+  border-radius: 1.5625rem;
+  white-space: pre-line;
+}
+
+.button:hover,
+.button:active {
+  background-color: var(--bg-dark-gray);
+  color: #fff;
+}

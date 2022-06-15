@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
+    "build": "bins/fetch.sh && svelte-kit build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview",
     "prepare": "svelte-kit sync",
@@ -12,7 +12,7 @@
     "test": "vitest --run",
     "test-files": "vitest --run related",
     "test:watch": "vitest",
-    "lint": "npm run lint:js-files -- . && npm run lint:css-files -- \"src/**/*.{css,svelte,svg}\"",
+    "lint": "npm run lint:js-files -- . && npm run lint:css-files -- \"src/**/*.{css,svelte}\"",
     "lint:js-files": "prettier --check --plugin-search-dir=.",
     "lint:css-files": "stylelint --config .stylelintrc.json",
     "format": "prettier --write --plugin-search-dir=. ."
@@ -20,8 +20,11 @@
   "devDependencies": {
     "@sveltejs/adapter-static": "^1.0.0-next.34",
     "@sveltejs/kit": "next",
+    "@types/d3": "^7.4.0",
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
+    "autoprefixer": "^10.4.7",
+    "d3-dsv": "^3.0.1",
     "eslint": "^8.17.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",

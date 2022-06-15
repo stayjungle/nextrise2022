@@ -76,8 +76,7 @@
   }
 
   .main-img {
-    width: 100%;
-    max-width: 16rem;
+    height: 35vh;
     margin: 0 auto;
   }
 

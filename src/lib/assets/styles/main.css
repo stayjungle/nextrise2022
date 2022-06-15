@@ -36,7 +36,7 @@ body {
 }
 
 .button.start {
-  --height: 4.375rem;
+  --height: 4rem;
 
   height: var(--height);
   border-radius: calc(var(--height) / 2);

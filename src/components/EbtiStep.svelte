@@ -27,14 +27,11 @@
 
     <div class="inner-container">
       <div class="qna-container">
-        <div>
-          <div class="q-counter-container">
-            <span class="q-counter-text">Question</span>
-            <span class="q-counter">{curStep}</span>
-          </div>
-          <h1 class="question base-text">{step.question}</h1>
+        <div class="q-counter-container">
+          <span class="q-counter-text">Question</span>
+          <span class="q-counter">{curStep}</span>
         </div>
-
+        <h1 class="question base-text">{step.question}</h1>
         <Answers options={step.answers} {prevAnswers} />
       </div>
 
@@ -69,6 +66,10 @@
   }
 
   .inner-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
     padding-right: 3.125rem;
     padding-bottom: 1.5rem;
     padding-left: 3.125rem;
@@ -78,13 +79,6 @@
     width: 100%;
     max-width: 16rem;
     margin: 0 auto;
-  }
-
-  .qna-container {
-    display: flex;
-    min-height: 18rem;
-    flex-direction: column;
-    justify-content: space-between;
   }
 
   .q-counter-container {

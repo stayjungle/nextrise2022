@@ -18,7 +18,7 @@
   .answers {
     display: flex;
     flex-direction: column;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     gap: 0.8rem;
   }
 </style>

@@ -72,11 +72,11 @@
       </div>
       <div class="food-info-container">
         <div class="serving-size food-info">
-          <span class="info-title">Serving Size</span>
+          <span class="info-title">샘플 시식량</span>
           <span class="info-data">{food.servingSize}g</span>
         </div>
         <div class="food-info">
-          <span class="info-title">Calories</span>
+          <span class="info-title">칼로리</span>
           <span class="info-data">{food.calories}kcal</span>
         </div>
       </div>
@@ -184,9 +184,7 @@
       gap: 0.625rem;
 
       .info-title {
-        font-family: questa-grande, serif;
         font-size: 1.25rem;
-        font-style: italic;
         white-space: nowrap;
       }
 

@@ -86,6 +86,9 @@
       <p class="base-text result-desc">{results['부연1']} {results['부연2']}</p>
       <p class="base-text result-desc shout">바로 {food.korName}!</p>
       <p class="base-text result-desc">{results['food']}</p>
+      <p class="base-text result-desc">
+        <strong>테스트 결과를 직원에게 보여주시면 시식 샐러드를 드려요.</strong>
+      </p>
     </div>
   </div>
 </div>
